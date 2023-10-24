@@ -1,6 +1,6 @@
 # ActorCommunication
 
-Communicating between actors using cast and delegate. When the controller actor has been overlapped, the controller will light up and send a signal to door actor. After door actor receive the signal, the door will run the open animation.
+Communicating between controller and door actor using cast and delegate. When the controller actor has been overlapped, the controller will light up and send a signal to door actor. After door actor receive the signal, the door will run the open animation.
 
 To make it works you have to do followings :
 - Place both ActorCommunication actor and MagicDoor actor in the level
